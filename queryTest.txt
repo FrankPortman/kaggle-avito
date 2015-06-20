@@ -1,0 +1,5 @@
+select *
+from (select SearchID, AdID, Position, ObjectType, HistCTR, IsClick, UserID, IPID, IsUserLoggedOn, SearchInfo.LocationID
+from (trainSearchStream join AdsInfo using(AdID)) join SearchInfo using(SearchID)
+limit 1000)
+where ObjectType = 3;
