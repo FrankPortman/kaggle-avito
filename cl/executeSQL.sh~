@@ -1,0 +1,1 @@
+sqlite3 ../data/database.sqlite ~/kaggle/kaggle-avito/sql/1-getTrainData.sql
