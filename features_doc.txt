@@ -1,0 +1,22 @@
+Features doc
+
+for non contextual ads, phone request as a proxy for isclick noncontextual ads to include as training data
+"if phoneRequestDate for (userId, IPID, adID) is not null, isclick=1"
+
+how many times was this particular ad impressed upon this particular individual before they clicked it
+
+how many total impressions of all ads were they subjected to before they clicked this particular ad
+
+how can we incorporate searchid?
+% of ads clicked by search
+a user may have been presented with several contextual ads and clicked 1 of them, all of them, none of them, etc
+just use 'searchid' as a categorical predictor
+## ads per searchid 
+
+Histctr for searchid
+
+Tie things to one ipid
+
+Dates for multiple impressions of same ad
+
+# searches leading up to impression 
