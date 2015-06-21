@@ -9,7 +9,7 @@ def zygmoid(x):
     return 1 / (1 + math.exp(-x))
 
 with open(sys.argv[2],"wb") as outfile:
-    outfile.write("Predicted\n")
+    outfile.write("IsClick\n")
     for line in open(sys.argv[1]):
         row = line.strip().split(" ")
         outfile.write("%f\n"%(zygmoid(float(row[0]))))

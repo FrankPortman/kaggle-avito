@@ -1,0 +1,2 @@
+cat ../data/1-testSearchStream.csv | cut -d, -f1 > ../data/testIDs.csv
+sed -i "1 s/^.*$/$ID/" ../data/testIDs.csv
