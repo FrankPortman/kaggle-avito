@@ -1,0 +1,1 @@
+python ../r-python/csv2vw.py ../data/1-testSearchStream.csv ../data/1-testSearchStream.vw -s -l -1 -i 0,4,5 -c -n 1000000

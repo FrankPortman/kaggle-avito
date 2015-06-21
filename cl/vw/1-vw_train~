@@ -1,0 +1,1 @@
+vw -d ../../data/1-TrainSearchStream.vw -f ../output/vw_models/vw_mod1.vw --loss_function logistic --passes 5 -c
