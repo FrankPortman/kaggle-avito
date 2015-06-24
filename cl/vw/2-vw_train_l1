@@ -1,0 +1,1 @@
+utl/vw-hypersearch -L 1e-10 1 vw --passes 1 -c -b 20 --loss_function logistic --l1 % ../../data/1-trainSearchStream.vw > ../../output/vw_models/2-l1_param

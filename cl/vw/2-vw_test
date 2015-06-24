@@ -1,0 +1,1 @@
+vw ../../data/1-testSearchStream.vw -t -i ../../output/vw_models/vw_mod2.vw -p ../../submissions/submission2.vw

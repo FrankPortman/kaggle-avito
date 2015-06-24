@@ -1,2 +1,3 @@
 data/*
 submissions/*
+output/vw_models/*.vw
